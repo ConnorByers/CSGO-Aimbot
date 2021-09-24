@@ -20,8 +20,7 @@ def on_press(key):
 
 def on_release(key):
     pass
-    #if key == keyboard.KeyCode.from_char('q'):
-    #    return False
+
 
 listener = keyboard.Listener(
     on_press=on_press,
@@ -37,7 +36,3 @@ while True:
     if key == ord('q'):
         cv2.destroyAllWindows()
         break
-    #elif key == ord('f'):
-    #    cv2.imwrite('positive/{}.jpg'.format(cur_time), sct_img)
-    #elif key == ord('d'):
-    #    cv2.imwrite('negative/{}.jpg'.format(cur_time), sct_img)
