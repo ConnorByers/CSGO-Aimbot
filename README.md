@@ -27,10 +27,23 @@ Run `opencv_traincascade -data cascade/ -v positives.vec -bg neg.txt -w <same as
 
 ### Filtering
 
-To attempt to filter away incorrectly identified objects from the model, it
+To attempt to filter away incorrectly identified objects from the model (as shown below):
 
-- Only considers objects within a certain region in the screen (the sky, ground, gun often gets incorrectly chosen)
-- Checks if the middle of the object is a counter terrorist color by gettings its hsp value (which is a measure of brightness) and other patterns I found through checking the pixel colors
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/53878605/134783825-81e92074-bfe0-49f1-bc6d-3d54a31bb2a3.gif)
+
+
+- Only consider objects within a certain region in the screen (the sky, ground, gun often gets incorrectly chosen)
+- Check if the middle of the object is a counter terrorist color by gettings its hsp value (which is a measure of brightness) and other patterns I found through checking the pixel colors
+
+After Filtering, the model boxes look like this:
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/53878605/134783666-fcea0f98-e4c3-416a-ba7e-914071605190.gif)
 
 ### Choosing Enemy to snap to
 - For simplicity sake, the closest rectangle was chosen
+
+With only selecting the closest rectangle, the below is what's considered:
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/53878605/134783869-7ea67536-7f42-459e-bc26-c48f3eae4a94.gif)
+
+
