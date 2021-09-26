@@ -1,6 +1,6 @@
 # CSGO-Aimbot
 
-This is my attempt of making a CSGO Aim assist tool using Python, OpenCV and Haar Cascade Classifiers. This aimbot only works well against Counter Terrorists (as their color constrasts better against backgrounds than Terrorists).
+This is my attempt of making a CSGO Aim assist tool using Python, OpenCV and Haar Cascade Classifiers. This aimbot only works well against Counter Terrorists (as their color contrasts better against backgrounds than Terrorists).
 
 ![singlerec (online-video-cutter com) (1)](https://user-images.githubusercontent.com/53878605/134618145-16fe2ada-be52-4fe7-b184-890f1f2510ad.gif)
 
