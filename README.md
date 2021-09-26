@@ -33,14 +33,14 @@ To attempt to filter away incorrectly identified objects from the model (as show
 
 
 - Only consider objects within a certain region in the screen (the sky, ground, gun often gets incorrectly chosen)
-- Check if the middle of the object is a counter terrorist color by gettings its hsp value (which is a measure of brightness) and other patterns I found through checking the pixel colors
+- Check if the middle of the object is a counter terrorist color by calculating its hsp value (which is a measure of brightness) and checking for other patterns I found through testing the pixel colors of CTs
 
 After Filtering, the model boxes look like this:
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/53878605/134783666-fcea0f98-e4c3-416a-ba7e-914071605190.gif)
 
 ### Choosing Enemy to snap to
-- For simplicity sake, the closest rectangle was chosen
+- The closest rectangle to the crosshair is what it will snap to because if the crosshair is already close to the enemy, then it makes it more likely that it will target the CT rather than a false positive
 
 With only selecting the closest rectangle, the below is what's considered:
 
