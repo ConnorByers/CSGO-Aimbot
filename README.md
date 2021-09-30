@@ -1,6 +1,10 @@
 # CSGO-Aimbot
 
-This is my attempt of making a CSGO Aim assist tool using Python, OpenCV and Haar Cascade Classifiers. This aimbot only works well against Counter Terrorists (as their color contrasts better against backgrounds than Terrorists). You play normally as you would in CS:GO, but when you want to snap to a player, click the key that you set in the `AIMBOT_CHARACTER` constant (default is `l`). To quit the aimbot, press the QUIT_KEY key (default is `k`).
+This is my attempt of making a CSGO Aim assist tool using Python, OpenCV and Haar Cascade Classifiers. This aimbot only works well against Counter Terrorists (as their color contrasts better against backgrounds than Terrorists).
+
+You play normally as you would in CS:GO, but when you want to snap to a player, click the key that you set in the `AIMBOT_CHARACTER` constant (default is `l`).
+
+To quit the aimbot, press the QUIT_KEY key (default is `k`).
 
 ![singlerec (online-video-cutter com) (1)](https://user-images.githubusercontent.com/53878605/134618145-16fe2ada-be52-4fe7-b184-890f1f2510ad.gif)
 
