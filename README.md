@@ -40,7 +40,7 @@ After Filtering, the model boxes look like this:
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/53878605/134783666-fcea0f98-e4c3-416a-ba7e-914071605190.gif)
 
 ### Choosing Enemy to snap to
-- The closest rectangle to the crosshair is what I decided to snap to. That's due to the fact if a player has good crosshair placement so that the crosshair is near possible CT's, it is more probable that it will snap to a CT and not a false positive.
+- The closest rectangle to the crosshair is what I decided to snap to. That's due to the fact if a player has good crosshair placement such that the crosshair is near possible CT's, it is more probable that it will snap to a CT and not a false positive.
 
 With only selecting the closest rectangle, the below is what's considered:
 
