@@ -46,4 +46,14 @@ With only selecting the closest rectangle, the below is what's considered:
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/53878605/134783869-7ea67536-7f42-459e-bc26-c48f3eae4a94.gif)
 
+### CSGO Settings
+
+I have my sensitivity set to 2.5. If you want a different sensitivity, you might need to fiddle with the mouse move multiplier on x and y.
+
+Make sure `Raw Input` and `Mouse acceleration` is set to off.
+
+Its a good idea to bind decal clearing to movement so the aimbot doesn't get confused by blood splatter.
+
+To get better results, change your gun position to be lower and more to the right so it doens't take up as much of the screen.
+
 
